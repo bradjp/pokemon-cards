@@ -27,10 +27,10 @@ const getPokemon = () => {
 const displayPokemon = (pokemon) => {
   const pokemonHTMLstring = pokemon.map( (poke) => {
     return `
-      <li>
-      <h2>${poke.id} ${poke.name}</h2>
-      <img src="${poke.image}">
-        <p>Type: ${poke.type}</p>
+      <li class="card">
+      <h2 class="card-name">${poke.id}: ${poke.name}</h2>
+      <img class="card-image" src="${poke.image}">
+        <p class="card-type">Type: ${poke.type}</p>
       </li>
     `
   }).join('')
