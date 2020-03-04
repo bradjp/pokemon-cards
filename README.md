@@ -1,4 +1,4 @@
-Pokedex with vanilla JS
-=======================
+Pokedex 
+=======
 
-Coding a Pokedex in HTML, using the Pokemon API.
+Coding a Pokedex in vanilla JS, HTML & CSS, using the Pokemon API.
