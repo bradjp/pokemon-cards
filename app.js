@@ -1,7 +1,5 @@
 const pokedex = document.getElementById('pokedex')
 
-
-
 const getPokemon = () => {
 
   promises = []
@@ -21,7 +19,6 @@ const getPokemon = () => {
     }))
     displayPokemon(pokemon)
   })
-  
 }
 
 const displayPokemon = (pokemon) => {
